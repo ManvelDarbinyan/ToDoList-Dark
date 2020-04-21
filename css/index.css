@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+}
+h1 {
+  text-align: center;
+  margin-top: 5%;
+}
+p1 {
+  color: blue;
+}
+p2 {
+  color: red;
+}
+p3 {
+  color: green;
+}
+.inputDiv {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.input {
+  height: 50px;
+  outline: none;
+  background-color: #fff;
+  width: 450px;
+  border-radius: 25px;
+  padding: 5px 10px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  font-size: 25px;
+  border: none;
+}
+.addButton {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  outline: none;
+  border: none;
+  background-color: lime;
+  color: #fff;
+  margin: 60px 0px 20px 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.addButton:hover {
+  opacity: 0.7;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 1px;
+}
+.item {
+  padding: 1px;
+  margin-bottom: 1px;
+  border-bottom: 1px solid #fff;
+}
+.itemInput {
+  background: none;
+  outline: none;
+  color: blue;
+  border: none;
+  width: 350px;
+  font-size: 25px;
+}
+.editButton {
+  font-size: 20px;
+  margin: 0px 10px 0px 0px;
+  background: none;
+  outline: none;
+  color: lime;
+  border: none;
+  cursor: pointer;
+}
+.removeButton {
+  font-size: 20px;
+  margin: 0 0 2px;
+  background: none;
+  outline: none;
+  color: red;
+  border: none;
+  cursor: pointer;
+}
